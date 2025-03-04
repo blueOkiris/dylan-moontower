@@ -104,12 +104,14 @@ h1 {
     font-size: var(--desktop-h1-size);
     font-weight: bold;
     color: var(--col-fg);
+    font-family: monospace;
 }
 
 h2 {
     font-size: var(--desktop-h2-size);
     font-weight: bold;
     color: var(--col-fg);
+    font-family: monospace;
 }
 
 h3 {
@@ -117,6 +119,7 @@ h3 {
     font-weight: bold;
     font-style: italic;
     color: var(--col-fg);
+    font-family: monospace;
 }
 
 h4 {
@@ -124,15 +127,18 @@ h4 {
     font-weight: normal;
     text-decoration: underline;
     color: var(--col-fg);
+    font-family: monospace;
 }
 
 p {
     font-size: var(--desktop-p-size);
     color: var(--col-fg);
+    font-family: monospace;
 }
 
 a {
     font-size: var(--desktop-p-size);
+    font-family: monospace;
 }
 
 a:link {
@@ -145,5 +151,6 @@ a:visited {
 
 li {
     font-size: var(--desktop-p-size);
+    font-family: monospace;
     color: var(--col-fg);
 }
