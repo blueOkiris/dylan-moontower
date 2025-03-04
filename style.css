@@ -5,6 +5,7 @@
 :root {
     --padding:              50px;
     --desktop-width:        50vw;
+    --max-desktop-width:    750px;
     --img-border-radius:    20px;
     --img-border-width:     5px;
 
@@ -49,6 +50,7 @@ body {
     padding: var(--padding);
     padding-top: 0px;
     width: var(--desktop-width);
+    max-width: var(--max-desktop-width);
     background-color: var(--col-bg);
     height: auto;
     min-height: 100%;
