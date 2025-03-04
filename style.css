@@ -1,0 +1,134 @@
+/* Main stylesheet for the website */
+
+/* Variables */
+
+:root {
+    --padding:              50px;
+    --desktop-width:        50vw;
+    --img-border-radius:    20px;
+    --img-border-width:     5px;
+
+    --desktop-h1-size:  40px;
+    --desktop-h2-size:  30px;
+    --desktop-h3-size:  20px;
+    --desktop-h4-size:  18px;
+    --desktop-p-size:   16px;
+
+    --col-bg:   #282A36;
+    --col-ln:   #44475A;
+    --col-fg:   #F8F8F2;
+    --col-sec:  #6272A4;
+    --col-acc:  #FF79C6;
+}
+
+html {
+    height: auto;
+    min-height: 100%;
+}
+
+/* Top-level Body is a vertical flex box */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--col-ln);
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+@media (max-aspect-ratio: 1.2/1) {
+    body {
+        background-color: var(--col-bg);
+    }
+}
+
+#main {
+    padding: var(--padding);
+    padding-top: 0px;
+    width: var(--desktop-width);
+    background-color: var(--col-bg);
+    height: auto;
+    min-height: 100%;
+}
+
+@media (max-aspect-ratio: 1.2/1) {
+    #main {
+        width: 90%;
+    }
+}
+
+.imgbox {
+    aspect-ratio: 16.0 / 9.0;
+    overflow: hidden;
+    border-style: solid;
+    border-radius: var(--img-border-radius);
+    border-width: var(--img-border-width);
+    border-color: var(--col-sec);
+}
+
+.imgbox img {
+    width: var(--desktop-width);
+}
+
+@media (max-aspect-ratio: 1.2/1) {
+    .imgbox {
+        width: 90%;
+    }
+
+    .imgbox img {
+        width: 100%;
+    }
+}
+
+#fav-color-block {
+    background-color: #03BB85;
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-aspect-ratio: 1.2/1) {
+    #fav-color-block {
+        width: 90%;
+    }
+}
+
+/* Common Text Settings */
+
+h1 {
+    font-size: var(--desktop-h1-size);
+    font-weight: bold;
+    color: var(--col-fg);
+}
+
+h2 {
+    font-size: var(--desktop-h2-size);
+    font-weight: bold;
+    color: var(--col-fg);
+}
+
+h3 {
+    font-size: var(--desktop-h3-size);
+    font-weight: bold;
+    font-style: italic;
+    color: var(--col-fg);
+}
+
+h4 {
+    font-size: var(--desktop-h4-size);
+    font-weight: normal;
+    text-decoration: underline;
+    color: var(--col-fg);
+}
+
+p {
+    font-size: var(--desktop-p-size);
+    color: var(--col-fg);
+}
+
+li {
+    font-size: var(--desktop-p-size);
+    color: var(--col-fg);
+}
