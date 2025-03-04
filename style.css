@@ -128,6 +128,18 @@ p {
     color: var(--col-fg);
 }
 
+a {
+    font-size: var(--desktop-p-size);
+}
+
+a:link {
+    color: var(--col-sec);
+}
+
+a:visited {
+    color: var(--col-acc);
+}
+
 li {
     font-size: var(--desktop-p-size);
     color: var(--col-fg);
