@@ -8,6 +8,7 @@
     --max-desktop-width:    750px;
     --img-border-radius:    20px;
     --img-border-width:     5px;
+    --txt-margin-height:    0.25em;
 
     --desktop-h1-size:  40px;
     --desktop-h2-size:  30px;
@@ -127,6 +128,7 @@ h1 {
     font-weight: bold;
     color: var(--col-fg);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 h2 {
@@ -134,6 +136,7 @@ h2 {
     font-weight: bold;
     color: var(--col-fg);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 h3 {
@@ -142,6 +145,7 @@ h3 {
     font-style: italic;
     color: var(--col-fg);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 h4 {
@@ -150,17 +154,20 @@ h4 {
     text-decoration: underline;
     color: var(--col-fg);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 p {
     font-size: var(--desktop-p-size);
     color: var(--col-fg);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 a {
     font-size: var(--desktop-p-size);
     font-family: monospace;
+    margin: var(--txt-margin-height) 0;
 }
 
 a:link {
@@ -171,8 +178,13 @@ a:visited {
     color: var(--col-acc);
 }
 
+ol {
+    margin: var(--txt-margin-height) 0;
+}
+
 li {
     font-size: var(--desktop-p-size);
     font-family: monospace;
     color: var(--col-fg);
+    margin: var(--txt-margin-height) 0;
 }
