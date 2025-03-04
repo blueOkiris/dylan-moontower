@@ -1,12 +1,7 @@
-# Cooking with Pykkle
+# Dylan's Moontower Page
 
 ## Description
 
-My personal cookbook in website form.
+My personal page for Moontower Computer Club
 
-To be hosted at https://cookbook.dylan-turner.net/
-
-## License
-
-No license is allowed. The code, recipes, and images in this repo may be viewed but not distributed in any form.
-
+To be hosted at https://moontowercomputer.club/~dylan
